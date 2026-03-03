@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Workshop – Event Registration</title>
+</head>
+<body>
+
+    <h1 align="center">Web Development Workshop</h1>
+    <p align="center">Simple Event Registration Page</p>
+
+    <hr>
+
+    <!-- Event Information Section -->
+    <h2>Event Information</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Event Name</th>
+            <td>Web Development Workshop</td>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>18 March 2026</td>
+        </tr>
+        <tr>
+            <th>Venue</th>
+            <td>Pollachi College of Arts and Science</td>
+        </tr>
+        <tr>
+            <th>Duration</th>
+            <td>10:00 AM – 4:00 PM</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Registration Form -->
+    <h2>Participant Registration Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Select Event Session:</label><br>
+        <select name="session">
+            <option>HTML Basics</option>
+            <option>CSS Styling</option>
+            <option>JavaScript Introduction</option>
+        </select>
+        <br><br>
+
+        <label>Additional Comments:</label><br>
+        <textarea rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="checkbox" required>
+        I hereby declare that the above information is correct.
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+    <!-- Registered Participants Table -->
+    <h2>Registered Participants</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Session</th>
+        </tr>
+        <tr>
+            <td>Sample Student</td>
+            <td>student@email.com</td>
+            <td>HTML Basics</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: 24nmcspriyadarsinib@gmail.com</p>
+        <p>Department of Computer Science</p>
+        <p>Pollachi College of Arts and Science</p>
+    </footer>
+
+</body>
+          </html>
